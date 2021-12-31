@@ -14,7 +14,7 @@ html{
 .happy{
   width: 100%;
   font-family: 'Walter Turncoat', cursive;
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 700;
   color: #f48fb1;
   text-align: center;
@@ -39,7 +39,7 @@ html{
 }
 .new_year>span{
   font-family: 'Cabin Sketch', cursive;
-  font-size: 175px;
+  font-size: 140px;
   font-weight: 700;
   color: #7a8fe8;
 }
@@ -47,14 +47,14 @@ span.eight{
   position: absolute;
   top: 50%;
   right: 50%;
-  margin-right: -200px;
+  margin-right: -158px;
   -webkit-animation: out_2018 5s ease-in-out 5s forwards;
           animation: out_2018 5s ease-in-out 5s forwards;
 }
 span.nine{
   position: absolute;
   right: 0%;
-  margin-right: -200px;
+  margin-right: -158px;
   -webkit-animation: in_2019 6s ease-in-out forwards;
           animation: in_2019 6s ease-in-out forwards;
 }
@@ -211,15 +211,6 @@ span.nine:before{
   position: absolute;
   top: -15px;
   right: 10px;
-}
-a.author{
-  font-family: 'Handlee', cursive;
-  font-size: 32px;
-  text-decoration: none;
-  color: #f47c7c;
-  position: fixed;
-  bottom: 10px;
-  right: 100px;
 }
 
 @-webkit-keyframes in_2019 {
